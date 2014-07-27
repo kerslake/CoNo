@@ -49,7 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.fs" />
+    <Compile Include="Common.fs" />
+    <Compile Include="DomainTypes.fs" />
+    <Compile Include="Repository.fs" />
+    <Compile Include="NoteCommands.fs" />
+    <Compile Include="Main.fs" />
     <None Include="App.config" />
   </ItemGroup>
   <PropertyGroup>
