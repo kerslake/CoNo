@@ -5,6 +5,7 @@ open Repository
 let list (Notes notes) =
     let printNote note =
         printf "%A: %s\n" note.Id note.Note
+    printf "\n"
     notes |> List.rev |> List.map printNote |> ignore
     printf "\n"
 
